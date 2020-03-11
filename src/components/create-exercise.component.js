@@ -17,7 +17,7 @@ export default class CreateExercise extends Component {
       username: "",
       description: "",
       duration: 0,
-      date: new Date().toLocaleDateString(),
+      date: new Date(),
       users: []
     };
   }
